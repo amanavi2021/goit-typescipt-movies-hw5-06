@@ -36,6 +36,7 @@ const initialValues = {
 }
 
 const MovieDetails: FC = () => {
+  
   const { id=""} = useParams<{id?:string}>();
   const [movie, setMovie] = useState<IMovie>(initialValues);
   const [error, setError] = useState<string|unknown>('');
