@@ -6,7 +6,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
    <React.StrictMode>
-    <BrowserRouter basename='/goit-typescipt-movies-hw5-06'>
+    <BrowserRouter basename='goit-typescipt-movies-hw5-06'>
     <App />
     </BrowserRouter>
    </React.StrictMode>
