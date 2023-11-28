@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
-    "lint:js": "eslint src/**/*.{js,jsx}"
+    "lint": "eslint src/**/*.{ts,tsx}"
   },
   "eslintConfig": {
     "extends": [
